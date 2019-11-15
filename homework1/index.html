@@ -1,16 +1,21 @@
 <html>
 <head>
-    <title>INTRO</title>
+    <title>Javascript</title>
 </head>
 <body>
 
     <link rel="stylesheet" href="style.css">
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+    <script src="javasc.js"></script>
     
     <div class=upsidebar>
-        <span id=upside_element>Gmail</span>
-        <span id=upside_element>이미지</span>
-        <span id=upside_element>■</span>
-        <span id=upside_element>○</span>
+        <span class=upside_element id=gmail>Gmail</span>
+        <span class=upside_element id=image>이미지</span>
+        <span class=upside_element id="square"> ■</span>
+        <button class=upside_element id=login>로그인</button>
     </div>
     
     <div id=mainscreen>
@@ -19,8 +24,7 @@
         
     <div id=searchfield>
         <div id=search><input type="text"></div>
-        <div id=buttons><input type="button" value="Google검색"><input type="button" value="I'm feeling lucky"</div>
-    </div>
+        <div id=buttons><input type="button" value="Google검색"><input type="button" id="lucky" value="I'm feeling lucky"></div>
         
     </div>
         
